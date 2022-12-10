@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Playfair Display", sans-serif;
+    background: #354147;
+}
+.container {
+    width: 90%;
+    margin:0 auto;
+}
+
+#header {
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+.header-nav a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+.header-naw a {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.header-naw a ion-icon {
+    font-size: 25px;
+    margin: 0 5px;
+}
+.hr {
+    width: 82px;
+    height: 2px;
+    color: #FFFFFF;
+}
+#hero {
+    padding: 200px 0;
+    background: url("../img/BG.jpg") no-repeat center/cover;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title a {
+    display: flex;
+    align-items: center;
+    padding: 39px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.hero-title h3 {
+    left: 5px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+}
+.hero-naw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-naw h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.hero-naw a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.block {
+    /*position: absolute;*/
+}
+.line h2 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+.block-title h1 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.block-bg h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 240px;
+    color: #FFFFFF;
+}
